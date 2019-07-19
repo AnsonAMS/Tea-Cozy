@@ -35,3 +35,23 @@ header nav {
 nav span {
   padding: 15px 10px;
 }
+
+.mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height:700px;
+  position: fixed;
+  margin-top: 70px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 0px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+  text-align: center;
+  flex-direction: column;
+}
