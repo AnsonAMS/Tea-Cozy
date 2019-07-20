@@ -36,6 +36,11 @@ nav span {
   padding: 15px 10px;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
 .mission {
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
@@ -49,12 +54,25 @@ nav span {
   margin-bottom: 0px;
 }
 
-.content span {
-  display: flex;
+.content {
   width: 1200px;
   background-color: black;
   z-index: 1;
   text-align: center;
   flex-direction: column;
   align-items: center;
+}
+
+.month {
+  display: flex;
+
+  text-align: center;
+  border: 3px solid white;
+}
+
+.products {
+  display: flex;
+
+  text-align: center;
+  border: 3px solid white;
 }
